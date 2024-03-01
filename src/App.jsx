@@ -1,9 +1,12 @@
-import './App.css';
+import "./App.css";
+import TypeWriter from "./Component/TypeWriter";
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+       <TypeWriter/>
         <img src="Octocat.png" className="App-logo" alt="logo" />
         <p>
           GitHub Codespaces <span className="heart">♥️</span> React
