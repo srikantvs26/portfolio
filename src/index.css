@@ -11,10 +11,14 @@ body {
 
     /* position: relative; */
     /* z-index: -1; */
- background-image:  url(./Assets/background.jpg)
+    background-image:  url(./Assets/background.jpg);
     /* background-position: top center;
     background-repeat: no-repeat; */
   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
   
   
 }
