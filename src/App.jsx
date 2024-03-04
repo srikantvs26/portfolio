@@ -1,5 +1,6 @@
 import "./App.css";
 import NavBar from "./Component/NavBar/NavBar";
+import Particle from "./Component/Particle";
 import TypeWriter from "./Component/TypeWriter/TypeWriter";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <NavBar/>
+        <Particle/>
        <TypeWriter/>
       </header>
     </div>
