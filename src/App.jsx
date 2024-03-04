@@ -13,17 +13,17 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoad(false);
-    }, 1200);
+    }, 1000);
 
     return () => clearTimeout(timer);
   }, []);
 
   return (
     <>
+    {load ? <></> : <Particle />}
       <Preloader load={load} />
-      <div className="App" id={load ? "no-scroll" : "scroll"}>
+      <div className="App">
         <header className="App-header">
-          {load ? <></> : <Particle />}
           <NavBar />
           <TypeWriter />
         </header>

@@ -31,16 +31,12 @@ const Particle = ({}) => {
     () => ({
       background: {
         color: {
-        //   value: "#0d47a1",
+          //   value: "#0d47a1",
         },
       },
-      fpsLimit: 120,
+      fpsLimit: 70,
       interactivity: {
         events: {
-          onClick: {
-            enable: true,
-            mode: "push",
-          },
           onHover: {
             enable: true,
             mode: "repulse",
@@ -81,7 +77,7 @@ const Particle = ({}) => {
           density: {
             enable: true,
           },
-          value: 30,
+          value: 50,
         },
         opacity: {
           value: 0.5,
@@ -95,7 +91,7 @@ const Particle = ({}) => {
       },
       detectRetina: true,
     }),
-    [],
+    []
   );
 
   if (init) {

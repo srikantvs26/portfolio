@@ -6,7 +6,7 @@ function Preloader(props) {
       <>
         {/* <Oval   id="preloader" stroke="red" color="black"/> */}
         <div id="preloader">
-          <Puff stroke="#b1f504" strokeOpacity=".125" width="140" height="140"/>
+          <Puff stroke="#b1f504" strokeOpacity=".125" width="130" height="130"/>
           
         </div>
       </>

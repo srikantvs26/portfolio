@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 body {
   margin: 0;
-/*   
+
   font-family: "Raleway", sans-serif !important;
-  font-optical-sizing: auto !important; */
+  font-optical-sizing: auto !important; 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
 
 
     /* position: relative; */
-    /* z-index: -1; */
+    /* z-index: 10; */
     background-image:  url(./Assets/background.jpg);
+    /* background-color: burlywood !important; */
     /* background-position: top center;
     background-repeat: no-repeat; */
   
