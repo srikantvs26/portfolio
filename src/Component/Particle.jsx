@@ -17,7 +17,7 @@ const Particle = ({}) => {
       //await loadAll(engine);
       //await loadFull(engine);
       await loadSlim(engine);
-      //await loadBasic(engine);
+      // await loadBasic(engine);
     }).then(() => {
       setInit(true);
     });
@@ -81,7 +81,7 @@ const Particle = ({}) => {
           density: {
             enable: true,
           },
-          value: 15,
+          value: 30,
         },
         opacity: {
           value: 0.5,

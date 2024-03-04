@@ -13,20 +13,22 @@ function App() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoad(false);
-    }, 3000);
+    }, 1200);
 
     return () => clearTimeout(timer);
   }, []);
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <Preloader load={load} />
-        {load ? <></> : <Particle />}
-        <NavBar />
-        <TypeWriter />
-      </header>
-    </div>
+    <>
+      <Preloader load={load} />
+      <div className="App" id={load ? "no-scroll" : "scroll"}>
+        <header className="App-header">
+          {load ? <></> : <Particle />}
+          <NavBar />
+          <TypeWriter />
+        </header>
+      </div>
+    </>
   );
 }
 
