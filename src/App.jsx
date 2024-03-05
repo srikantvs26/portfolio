@@ -25,7 +25,7 @@ function App() {
       <div className="App">
         <header className="App-header">
           <NavBar />
-          <TypeWriter />
+          {/* <TypeWriter /> */}
         </header>
       </div>
     </>

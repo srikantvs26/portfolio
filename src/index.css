@@ -1,50 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 body {
   margin: 0;
-
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Raleway", sans-serif !important;
-  font-optical-sizing: auto !important; 
+  font-optical-sizing: auto !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-
-
-    /* position: relative; */
-    /* z-index: 10; */
-    background-image:  url(./Assets/background.jpg);
-    /* background-color: burlywood !important; */
-    /* background-position: top center;
+  /* position: relative; */
+  /* z-index: 10; */
+  /* background-image:  url(./Assets/background.jpg); */
+  background-color: #1995AD !important;
+  /* background-position: top center;
     background-repeat: no-repeat; */
-  
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-  
-  
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
+#preloader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 9999999;
+  background-color: #1995ad;
+  background-repeat: no-repeat;
+  background-position: center;
 
-#preloader{
-position: absolute;
-width: 100%;
-height: 100%;
-z-index: 9999999;
-background-color: #0c0513;
-background-repeat: no-repeat;
-background-position: center;
-  
-display: flex;
-align-items: center;
-justify-content: center;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #tsparticles {
-  position:absolute;
+  position: absolute;
 }
+
+/* 23. Teal blue, light blue, & light gray #1995AD, #A1D6E2, #F1F1F2 */

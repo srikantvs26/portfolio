@@ -34,6 +34,7 @@ const Particle = ({}) => {
           //   value: "#0d47a1",
         },
       },
+      delay: 0,
       fpsLimit: 70,
       interactivity: {
         events: {
