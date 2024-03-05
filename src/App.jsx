@@ -20,8 +20,8 @@ function App() {
 
   return (
     <>
-    {load ? <></> : <Particle />}
-      <Preloader load={load} />
+    {<Particle/>}
+      {/* <Preloader load={load} /> */}
       <div className="App">
         <header className="App-header">
           <NavBar />

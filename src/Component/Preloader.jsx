@@ -1,7 +1,7 @@
 import { Puff} from "svg-loaders-react";
 
 function Preloader(props) {
-  if (props.load) {
+ 
     return (
       <>
         {/* <Oval   id="preloader" stroke="red" color="black"/> */}
@@ -11,7 +11,7 @@ function Preloader(props) {
         </div>
       </>
     );
-  }
+  
   return <></>;
 }
 
