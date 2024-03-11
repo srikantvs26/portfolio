@@ -34,16 +34,16 @@ const Particle = (props) => {
     // all options can be found here: https://particles.js.org/docs/interfaces/Options_Interfaces_IOptions.IOptions.html
     return {
       autoPlay: true,
-      background: {
-        color: {
-          // value: "#000",
-        },
-        image: "",
-        position: "",
-        repeat: "",
-        size: "",
-        opacity: 1,
-      },
+      // background: {
+      //   color: {
+      //     value: "#666ffd",
+      //   },
+      //   image: "",
+      //   position: "",
+      //   repeat: "",
+      //   size: "",
+      //   opacity: 0.75,
+      // },
       backgroundMask: {
         composite: "destination-out",
         cover: {
@@ -417,7 +417,7 @@ const Particle = (props) => {
           width: 0,
         },
         zIndex: {
-          value: 0,
+          value: -1,
           opacityRate: 1,
           sizeRate: 1,
           velocityRate: 1,

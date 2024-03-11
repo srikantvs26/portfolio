@@ -7,10 +7,11 @@ body {
   font-optical-sizing: auto !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000000 !important;
   /* position: relative; */
   /* z-index: 10; */
   /* background-image:  url(./Assets/background.jpg); */
-  background-color: #1995AD !important;
+  /* background-color: #1995AD !important; */
   /* background-position: top center;
     background-repeat: no-repeat; */
 
