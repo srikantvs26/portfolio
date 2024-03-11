@@ -5,7 +5,6 @@ import Particle from "./Component/Particle";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  const [load, setLoad] = useState(true);
   return (
     <>
       {/* <TypeWriter /> */}
