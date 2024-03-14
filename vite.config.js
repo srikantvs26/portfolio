@@ -12,18 +12,10 @@ export default defineConfig({
   // vite.config.js
 
   build: {
+    // Adjust chunk size thresholds
     rollupOptions: {
-      // Adjust chunk size thresholds
       output: {
-        // Set the minimum chunk size (in bytes) before splitting
-        minChunkSize: 20000, // Example: split chunks larger than 20kb
-        // Set the maximum chunk size (in bytes) before splitting
-        manualChunks(id) {
-          // This function allows you to manually specify chunks
-          if (id.includes("node_modules")) {
-            return "vendor"; // Put node_modules in a separate chunk
-          }
-        },
+        experimentalMinChunkSize: 500_000,
       },
     },
   },
